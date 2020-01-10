@@ -12,6 +12,8 @@ public class PersonClient {
         person.add();
         person = new Person("2","100","mockey","18",american);
         person.add();
+        person = new Person("3","80","jack","15",english);
+        person.add();
 
     }
 }
