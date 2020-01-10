@@ -34,8 +34,8 @@ public class CodeGenerator {
         dsConfig.setDbType(DbType.MYSQL)
                 .setDriverName("com.mysql.jdbc.Driver")
                 .setUrl("jdbc:mysql://39.106.26.128:3306/sport?useUnicode=true&characterEncoding=utf8&useSSL=false")
-                .setUsername("cto")
-                .setPassword("cto123456");
+                .setUsername("123")
+                .setPassword("123");
         //3. 策略配置globalConfiguration中
         StrategyConfig stConfig = new StrategyConfig();
         stConfig.setCapitalMode(true)
